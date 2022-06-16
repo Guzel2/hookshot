@@ -1,0 +1,9 @@
+
+challanges:
+
+jump		V|||
+hori hook	V||
+climb wall	|||
+hook left righ	||
+falling grab	V
+hook upwards	|

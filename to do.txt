@@ -1,0 +1,2 @@
+slime animation algorithm
+could be improved, but works
