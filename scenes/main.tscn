@@ -519,46 +519,6 @@ points = PoolVector2Array( 0, 0, 8, 0, 8, 8, 0, 8 )
 } ]
 2/z_index = 0
 
-[sub_resource type="AtlasTexture" id=71]
-atlas = ExtResource( 12 )
-region = Rect2( 0, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=72]
-atlas = ExtResource( 12 )
-region = Rect2( 360, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=73]
-atlas = ExtResource( 12 )
-region = Rect2( 720, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=74]
-atlas = ExtResource( 12 )
-region = Rect2( 1080, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=75]
-atlas = ExtResource( 12 )
-region = Rect2( 1440, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=76]
-atlas = ExtResource( 12 )
-region = Rect2( 1800, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=77]
-atlas = ExtResource( 12 )
-region = Rect2( 2160, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=78]
-atlas = ExtResource( 12 )
-region = Rect2( 2520, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=79]
-atlas = ExtResource( 12 )
-region = Rect2( 2880, 0, 360, 204 )
-
-[sub_resource type="AtlasTexture" id=80]
-atlas = ExtResource( 12 )
-region = Rect2( 3240, 0, 360, 204 )
-
 [sub_resource type="AtlasTexture" id=61]
 atlas = ExtResource( 11 )
 region = Rect2( 0, 0, 360, 204 )
@@ -599,16 +559,56 @@ region = Rect2( 2880, 0, 360, 204 )
 atlas = ExtResource( 11 )
 region = Rect2( 3240, 0, 360, 204 )
 
+[sub_resource type="AtlasTexture" id=71]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=72]
+atlas = ExtResource( 12 )
+region = Rect2( 360, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=73]
+atlas = ExtResource( 12 )
+region = Rect2( 720, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=74]
+atlas = ExtResource( 12 )
+region = Rect2( 1080, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=75]
+atlas = ExtResource( 12 )
+region = Rect2( 1440, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=76]
+atlas = ExtResource( 12 )
+region = Rect2( 1800, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=77]
+atlas = ExtResource( 12 )
+region = Rect2( 2160, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=78]
+atlas = ExtResource( 12 )
+region = Rect2( 2520, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=79]
+atlas = ExtResource( 12 )
+region = Rect2( 2880, 0, 360, 204 )
+
+[sub_resource type="AtlasTexture" id=80]
+atlas = ExtResource( 12 )
+region = Rect2( 3240, 0, 360, 204 )
+
 [sub_resource type="SpriteFrames" id=60]
 animations = [ {
-"frames": [ SubResource( 71 ), SubResource( 72 ), SubResource( 73 ), SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ), SubResource( 78 ), SubResource( 79 ), SubResource( 80 ) ],
-"loop": true,
-"name": "1",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 61 ), SubResource( 62 ), SubResource( 63 ), SubResource( 64 ), SubResource( 65 ), SubResource( 66 ), SubResource( 67 ), SubResource( 68 ), SubResource( 69 ), SubResource( 70 ) ],
 "loop": true,
 "name": "0",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 71 ), SubResource( 72 ), SubResource( 73 ), SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ), SubResource( 78 ), SubResource( 79 ), SubResource( 80 ) ],
+"loop": true,
+"name": "1",
 "speed": 5.0
 } ]
 
